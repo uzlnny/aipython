@@ -1,0 +1,9 @@
+def greet_user(name):
+    """
+    사용자 이름을 받아 환영 인사를 반환합니다.
+    """
+    return f"안녕, {name}!"
+
+# 사용자의 이름을 입력받아 함수로 처리한 뒤 문자열 출력
+user_input = input("이름을 입력해주세요: ")
+print(greet_user(user_input))
